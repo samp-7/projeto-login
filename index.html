@@ -17,13 +17,19 @@
                 <h1>Login</h1>
                 <p>Faça login para fazer parte do nosso time!</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="emal" placeholder="Email" required autocomplete="email">
-                    <br>
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="senha" id="isen" placeholder="Senha" required>
-                    <br>
-                    <input type="submit" value="Enviar">
+                    <div class="dior">
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="ieplaceholder="Email" required autocomplete="email" maxmin="7"> 
+                    </div>
+                    
+                    <div class="dior">
+                        <label for="isen">Senha:</label>
+                        <input type="password" name="senha" id="isen" placeholder="Senha" required autocomplete="current-password" max="20" min="7">
+                        <br>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    
+                    <a class="xereca" href="esqueceukk.html">Esqueci a senha</a>
                 </form>
             </div>
         </section>

@@ -1,3 +1,6 @@
+/* treine mais media query */
+
+
 @media  screen and (min-width: 768px) and (max-width: 992px) {
     
     body {
@@ -32,7 +35,7 @@
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
