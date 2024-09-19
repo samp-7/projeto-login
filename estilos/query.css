@@ -9,6 +9,7 @@
     
     #login {
         width: 70vw;
+        height: 300px;
     }
 
     #login > #imagem {
@@ -22,6 +23,7 @@
         float: right;
         width: 70%;
     }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -32,6 +34,7 @@
     
     #login {
         width: 90vh;
+        height: 400px;
     }
 
     #login > #imagem {
@@ -44,6 +47,26 @@
     #login > #form {
         float: right;
         width: 50%;
+    }
+
+    .dior {
+        background-color: darkmagenta;
+        display: block;
+        height: 45px;
+        border: 1px solid black;
+        padding: 4px;
+        margin-top: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    .porra {
+        background-color: #eb41eb4d;
+        border: none;
+        width: calc(100% - 54px);
+        height: 100%;
+        padding: 4px;
+        border-radius: 6px;
     }
 }
 
@@ -67,6 +90,26 @@
     #login > #form {
         float: right;
         width: 50%;
+    }
+
+    .dior {
+        background-color: darkslateblue;
+        display: block;
+        height: 45px;
+        border: 1px solid black;
+        padding: 4px;
+        margin-top: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    .porra {
+        background-color: rgba(53, 44, 107, 0.767);
+        border: none;
+        width: calc(100% - 54px);
+        height: 100%;
+        padding: 4px;
+        border-radius: 6px;
     }
 }
 
